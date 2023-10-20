@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>profile card hesh</title>
     <link rel="stylesheet" type="text/css" href="hesh.css"/>
 </head>
@@ -10,33 +13,39 @@
 
 <div class="card">
     <div class="header"></div>
-    <div class="body">
-        <div>
-            <img src="images/image-victor.jpg" alt="profile photo"/>
+    <div class="card-body">
+            <div class="user-image">
+                <img src="images/image-victor.jpg" alt="profile photo"/>
+            </div>
             <div class="user">
                 <div class="user-details">
-                    <span>Victor Crest</span>
-                    <span>26</span>
+                    <span class="name">Victor Crest</span>
+                    <span class="age">26</span>
                     <div class="user-location">London</div>
                 </div>
             </div>
-        </div>
     </div>
     <div class="footer">
         <div class="footer-item">
-            <span>80K</span>
-            <span>Followers</span>
+            <span class="item-title">80K</span>
+            <span class="item-content">Followers</span>
         </div>
         <div class="footer-item">
-            <span>803K</span>
-            <span>Likes</span>
+            <span class="item-title">803K</span>
+            <span class="item-content">Likes</span>
         </div>
         <div class="footer-item">
-            <span>1.4K</span>
-            <span>Photos</span>
+            <span class="item-title">1.4K</span>
+            <span class="item-content">Photos</span>
         </div>
     </div>
 </div>
+<span class="top-circle">
+    <svg width="978" height="978" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a"><stop stop-color="#0989B4" stop-opacity="0" offset="0%"/><stop stop-color="#53FFEE" offset="99.94%"/></linearGradient></defs><ellipse fill="url(#a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".5"/></svg>
+</span>
+<span class="bottom-circle">
+    <svg width="978" height="978" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a"><stop stop-color="#0989B4" stop-opacity="0" offset="0%"/><stop stop-color="#53FFEE" offset="99.94%"/></linearGradient></defs><ellipse fill="url(#a)" transform="scale(1 -1) rotate(45 1669.55 0)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd" opacity=".25"/></svg>
+</span>
 
 </body>
 </html>
